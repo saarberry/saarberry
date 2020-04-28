@@ -7,7 +7,7 @@
         <title>Saarberry</title>
 
         {{-- Fonts --}}
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap" rel="stylesheet">
 
         {{-- Styles --}}
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
