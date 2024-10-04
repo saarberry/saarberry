@@ -1,0 +1,39 @@
+$dark-100: #0B0E31;
+$dark-0: #7F9CA0;
+$primary-80: #F74553;
+$primary-60: #FFAB98;
+$secundary-40: #E5DBC0;
+$light-0: #FFFFFF;
+
+html, body {
+    background-color: $light-0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lusitana", serif;
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+.Content {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+.Title {
+    color: $primary-80;
+    font-size: 84px;
+    font-weight: 400;
+}
+
+.Footer {
+    height: 32px;
+    color: $dark-0;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
