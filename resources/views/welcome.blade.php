@@ -15,7 +15,17 @@
     </head>
     <body>
         <div class="Content">
-            <h1 class="Title">Saarberry</h1>
+            <div class="Wrapper">
+                <h1 class="Title">saarberry.</h1>
+                <div class="Rainbow">
+                    <div class="Rainbow__Block Rainbow__Block--red"></div>
+                    <div class="Rainbow__Block Rainbow__Block--orange"></div>
+                    <div class="Rainbow__Block Rainbow__Block--yellow"></div>
+                    <div class="Rainbow__Block Rainbow__Block--green"></div>
+                    <div class="Rainbow__Block Rainbow__Block--indigo"></div>
+                    <div class="Rainbow__Block Rainbow__Block--violet"></div>
+                </div>
+            </div>
         </div>
         <footer class="Footer">
             Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
